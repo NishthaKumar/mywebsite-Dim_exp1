@@ -128,3 +128,58 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Quick Form Section */
+.quick-form {
+    background-color: #ffffff;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.quick-form h3 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.quick-form p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.quick-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quick-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.quick-form input:focus {
+    border-color: #007bff;
+}
+
+.quick-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.quick-form button:hover {
+    background-color: #0056b3;
+}
