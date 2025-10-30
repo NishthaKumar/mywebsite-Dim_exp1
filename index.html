@@ -1,39 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio and web development services — showcasing projects, skills, and contact information.">
     <title>Home - My Website</title>
-    <link rel="stylesheet" href="favicon.ico" href="style.css" >
-    <meta name="description" name="viewport" content="Simple personal website showcasing services, about me, and contact details. Learn more about my work and get in touch.">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J4TRCWDCKT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-J4TRCWDCKT');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J4TRCWDCKT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-J4TRCWDCKT');
+    </script>
 </head>
 <body>
     <header>
-        <h1>Personal Portfolio and Web Development Services</h1>
+        <div class="header-container">
+            <h1>My Web Portfolio</h1>
+            <p>Building clean, efficient, and user-friendly web experiences</p>
+        </div>
     </header>
+
     <nav>
-        <a href="index.html">Home</a>
+        <a href="index.html" class="active">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
     </nav>
+
     <main>
-        <h2>Home Page</h2>
-        <p>This is the homepage of our website. Navigate through the menu to learn more about us.</p>
+        <section class="intro">
+            <h2>Welcome to My Website</h2>
+            <p>
+                This is my personal portfolio website where I showcase my web development projects, 
+                highlight my skills, and offer professional services. 
+                Explore the pages to learn more about what I do and how I can help bring your ideas to life.
+            </p>
+        </section>
+
+        <section class="features">
+            <h3>What You’ll Find Here</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>🌐 Projects</h4>
+                    <p>Browse through some of my recent work — from responsive websites to modern web apps.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>💡 Services</h4>
+                    <p>Discover what I offer: web design, front-end development, and SEO optimization.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📬 Contact</h4>
+                    <p>Get in touch for collaborations, freelance work, or project inquiries.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h3>Let’s Create Something Great Together</h3>
+            <a href="contact.html" class="btn">Contact Me</a>
+        </section>
     </main>
+
     <footer>
-        <p>© 2025 My Website</p>
+        <p>© 2025 My Website | Designed with ❤️ by Nishtha</p>
     </footer>
 </body>
 </html>
-
-
-
